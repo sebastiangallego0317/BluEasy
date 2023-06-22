@@ -1,0 +1,497 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+    line-height: 20px;
+}
+.completeheader{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 13fr;
+    background-image: url(../img/Fondo.png);
+    background-size: cover;
+    background-position: center;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 30%);
+    color: white;
+    padding: 1% 0%;
+}
+.blueletter{
+    color: aqua;
+}
+.menuheader{
+    display: flex;
+    justify-content: space-between;
+    height: 80%;
+    width: 100%;
+    align-items: center;
+}
+.menuheader li{
+    font-weight: 700;
+    height: 90%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+.menuheader li:hover{
+    border: 1px solid rgb(103, 230, 255);
+    color: rgb(103, 230, 255);
+}
+.part1header{
+    padding: 1%;
+}
+li{
+    list-style: none;
+}
+.part2header{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    height: 60%;
+}
+.headerdown{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.headerdown h1{
+    font-size: 35px;
+    color: white;
+    font-weight: 100;
+    padding: .5%;
+    margin: 2px;
+    background-color: rgba(0, 0, 0, 30%);
+}
+
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+.halfpartblue{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr 2fr 1fr 3fr .5fr;
+    background-color: #4acafe; 
+    min-height: 300px;
+    color: white;
+}
+#coffe{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+#coffeh1{
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+#coffep{
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
+#instant{
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+#instanth1{
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+#instantp{
+  grid-column: 3/4;
+  grid-row: 4/5;
+}
+#serious{
+  grid-column: 4/5;
+  grid-row: 2/3;
+}
+#serioush1{
+  grid-column: 4/5;
+  grid-row: 3/4;
+}
+#seriousp{
+  grid-column: 4/5;
+  grid-row: 4/5;
+}
+#frame{
+  grid-column: 5/6;
+  grid-row: 2/3;
+}
+#frameh1{
+  grid-column: 5/6;
+  grid-row: 3/4;
+}
+#framep{
+  grid-column: 5/6;
+  grid-row: 4/5;
+}
+
+
+
+/*-----------------------------------------------------------------------------------------*/
+
+
+.headerwhitepart{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1% 0;
+  align-items: center;
+}
+.part2headerwhite{
+  width: 35%;
+  padding: 1% 0;
+}
+.part1headerwhite{
+  width: 15%;
+}
+.menuheaderwhite{
+  width: 100%;
+  padding: 1% 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.images{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 0.2fr;
+  grid-template-areas: ". a b c d ."
+                        ". e f g h ." 
+                        ". . . . . .";
+  gap: 15px;
+}
+#fotogrids1{
+  grid-area:a;
+}
+#fotogrids2{
+  grid-area:b;
+}
+#fotogrids3{
+  grid-area:c;
+}
+#fotogrids4{
+  grid-area:d;
+}
+#fotogrids5{
+  grid-area:e;
+}
+#fotogrids6{
+  grid-area:f;
+}
+#fotogrids7{
+  grid-area:g;
+}
+#fotogrids8{
+  grid-area:h;
+}
+.imagenesgrid{
+  width: 100%;
+}
+/*-------------------------------------------------------------------------------------------------------------------*/
+
+.graypart{
+  display: grid;
+  grid-template-columns: 1fr 2fr .5fr 2fr 1fr;
+  grid-template-rows: 2fr 2fr 2fr 2fr 2fr 2fr;
+  grid-template-areas: ". . . . ."
+                        ". a . b ."
+                        ". c . b  ."
+                        ". d . b ."
+                        ". e . b ."
+                        ". . . . .";
+  background-color: rgb(76, 91, 102);
+  gap: 20px;
+  color: white;
+}
+.titlegraypart{
+  grid-area: a;
+  font-size: 21px;
+}
+.parapragphgraypart{
+  grid-area: c;
+}
+.parapragphgraypart2{
+  grid-area: d;
+}
+.buttongraypart{
+  grid-area: e;
+}
+.buttongraypart button{
+  padding: 2% 5%;
+  background: none;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+}
+.buttongraypart button:hover{
+  border-color: rgb(38, 46, 51);
+  color: rgb(36, 43, 48);
+}
+.imgvideo{
+  grid-area: b;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+.twitterdownpart{
+  display: flex;
+  flex-direction: column;
+  background-color: #4acafe;
+  color: white;
+  box-sizing: border-box;
+  justify-content: space-between;
+  padding: 2% 15.5%;
+}
+.tittleandimage{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.twitterdownpart p{
+  padding: 1% 0;
+  width: 50%;
+}
+.arroa{
+  font-weight: bold;
+}
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+
+.whoisjhondoe{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5% 15.5%;
+  background-image: url(../img/bg_whoIs.png);
+  color: white;
+}
+.gridjhondoe{
+  display: grid;
+  grid-template-columns: 3fr .2fr 3fr;
+  grid-template-rows:1fr 2fr .5fr 2fr 1fr;
+  grid-template-areas:  ". . ."
+                        "a . b"
+                        ". . ."
+                        "c . d"
+                        ". . .";
+                      }
+                      #part1p{
+                        grid-area: a;
+                        font-size: 13px;
+                      }
+                      #part2p{
+  grid-area: b;
+  font-size: 13px;
+}
+#part3p{
+  grid-area: c;
+  font-size: 13px;
+}
+.imagesjhondoe{
+  grid-area: d;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+.testimonials{
+  display: grid;
+  grid-template-columns: 2fr 8fr 1fr 2fr;
+  grid-template-rows: 3fr 1fr 3fr 2fr 2fr;
+  grid-template-areas:  ". titulo comillas ."
+  ". . . ."
+  ". texto . ."
+  ". . . ."
+  ". text . .";
+  
+  padding: 4% 0;
+}
+.tittletestimonials{
+  grid-area: titulo;
+  line-height: 1;
+}
+.comillas{
+  font-size: 60px;
+  font-weight: 900;
+  color: rgb(76, 91, 102);
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  grid-area: comillas;
+}
+.texttestimonials{
+  line-height: 2;
+  font-size: 20px;
+  grid-area: texto;
+}
+.downtexttestimonials{
+  color: #4acafe;
+  font-weight: 900;
+  grid-area: text;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.contact{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: space-between;
+  padding: 2% 15.5%;
+background-image: url(../img/bg_contact.png);
+}
+.tittlecontact{
+  padding: 4% 0;
+  font-size: 25px;
+}
+.gridcontact{
+  display: grid;
+  grid-template-columns: 3fr 1fr 3fr;
+  grid-template-rows: 3fr 1fr 3fr 1fr 9fr 1fr 3fr;
+  grid-template-areas:  "name . text1"
+                        ". . ."
+                        "email . text2"
+                        ". . ."
+                        "mensaje mensaje mensaje"
+                        ". . ."
+                        "boton . .";
+}
+.form1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  grid-area: name;
+}
+.form2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  grid-area: email;
+}
+.form1 input{
+  background: transparent;
+  border: 2px solid white;
+  width: 100%;
+  height: 60%;
+}
+.form2 input {
+  background: transparent;
+  border: 2px solid white;
+  width: 100%;
+  height: 60%;
+}
+.form3{
+  grid-area: mensaje;
+  display: flex;
+  flex-direction: column;
+}
+.form3tittle{
+  height: 10%;
+}
+.message{
+  background: transparent;
+  border: 2px solid white;
+  width: 99.5%;
+height: 90%;
+}
+.textform{
+  grid-area: text1;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.infofinal{
+  line-height: 1.5;
+
+  grid-area: text2;
+}
+.messagebutton{
+  grid-area: boton;
+  width: 60%;
+  height: 50%;
+  background-color: #4acafe;
+  color: white;
+  border: none;
+}
+
+
+/*---------------------------------------------------------------------------------------------------*/
+footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 15.5%;
+  background-color: rgb(76, 91, 102);
+  color: rgb(109, 109, 109);
+}
+footer ul{
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  text-decoration: dotted;
+}
+/* Media queries */
+
+@media (max-width: 1514px) {
+  .completeheader {
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 10fr; /* Ajusta la proporción de las filas según tus necesidades */
+  }
+
+  .part2headerwhite {
+    width: 45%; /* Ajusta el ancho según tus necesidades */
+  }
+
+  .images {
+    grid-template-columns: 0.2fr 1fr 1fr 1fr 0.2fr; /* Ajusta el número de columnas según tus necesidades */
+    grid-template-rows: 0.2fr 1fr 1fr 1fr 0.2fr; /* Ajusta el número de filas según tus necesidades */
+    grid-template-areas:".  . . . ." ". a b c . " ". d e f ." ". g h i ." ". . . . .";
+  }
+}
+
+@media (max-width: 1186px) {
+  .completeheader {
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 8fr; /* Ajusta la proporción de las filas según tus necesidades */
+  }
+
+  .part2headerwhite {
+    width: 50%; /* Ajusta el ancho según tus necesidades */
+  }
+  
+  .graypart{
+    grid-template-areas: ". . . . ."
+                        ". a a a ."
+                        ". c c c  ."
+                        ". d d d ."
+                        ". e e e ."
+                        ". . . . .";
+  }
+  .imgvideo{
+    display: none;
+  }
+  .headerdown h1{
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  header{
+    flex-direction: column;
+  }
+  .part2header{
+    width: 80%;
+  }
+  .completeheader {
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 6fr; /* Ajusta la proporción de las filas según tus necesidades */
+  }
+
+  .part2headerwhite {
+    width: 60%; /* Ajusta el ancho según tus necesidades */
+  }
+
+}
